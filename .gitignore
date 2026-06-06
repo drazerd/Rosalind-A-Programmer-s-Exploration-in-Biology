@@ -1,0 +1,34 @@
+# Jupyter 
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+#  Python 
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv/
+venv/
+env/
+
+# OS 
+.DS_Store
+Thumbs.db
+
+# VS Code 
+.vscode/
+
+# Data / outputs (optional, uncomment if needed)
+# *.csv
+# *.fasta
+# *.txt
+
+# Quartz site builder
+# site/.gitignore is not tracked (Quartz ignores it), so list the exclusions here too.
+# node_modules/ is also excluded from iCloud sync by adding it here, but note that
+# iCloud for Windows has no .nosync equivalent — if sync bandwidth is a concern,
+# consider moving the site/ folder outside iCloud Drive after cloning.
+site/node_modules/
+site/public/
+site/.quartz-cache/
+site/.quartz/
